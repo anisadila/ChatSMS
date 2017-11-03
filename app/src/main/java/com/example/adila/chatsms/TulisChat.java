@@ -37,7 +37,7 @@ public class TulisChat extends AppCompatActivity {
         try {
             jsonObject.put("namaKontak",createNama.getText().toString());
             jsonObject.put("kontenChat",createKonten.getText().toString());
-            jsonObject.put("tanggal",new SimpleDateFormat("dd-mm-yyyy").format(Calendar.getInstance().getTime()));
+            jsonObject.put("tanggal",new SimpleDateFormat("dd-MM-yyyy").format(Calendar.getInstance().getTime()));
         } catch (JSONException e){
             e.printStackTrace();
         }
