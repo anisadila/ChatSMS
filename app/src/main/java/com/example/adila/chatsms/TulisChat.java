@@ -23,6 +23,8 @@ public class TulisChat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tulis_chat);
 
+        getSupportActionBar().setTitle("Tulis Chat");
+
         createNama = (EditText) findViewById(R.id.namaCreate);
         createKonten = (EditText) findViewById(R.id.kontenCreate);
 
